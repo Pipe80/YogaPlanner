@@ -12,6 +12,8 @@ function App() {
         <h1 style={{ color: '#692D51', textAlign: 'center', position: 'absolute', top: '5%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '32px', fontWeight: 'bold' }}>Find your inner peace!</h1>
       </div>
 
+     
+
       <p style={{ color: '#692D51', textAlign: 'center', marginBottom: '20px' }}>Design your own yogaplan</p>
 
       <form style={{ maxWidth: '400px', width: '100%' }}>
@@ -30,8 +32,8 @@ function App() {
         </div>
         <button style={{ backgroundColor: '#C57997', color: '#fff', padding: '8px 16px', border: 'none', borderRadius: '4px', width: '100%' }}>Register</button>
       </form>
-
-      <footer style={{ color: '#000', backgroundColor: '#fff', textAlign: 'center', padding: '10px', width: '100%' }}>
+      <img src="meditation.jpg" alt="Meditation" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
+      <footer style={{ color: '#000', backgroundColor: '#fff', textAlign: 'center', padding: '40px', width: '100%', fontWeight: 'bold' }}>
         YogaPlanner 2023
       </footer>
     </div>
