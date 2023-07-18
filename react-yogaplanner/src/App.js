@@ -2,31 +2,19 @@ import React from 'react';
 
 function App() {
   return (
-    <div style={{
-      backgroundColor: '#fff',
-      minHeight: '100vh',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}>
-      <nav style={{ backgroundColor: '#C57997', padding: '10px', marginBottom: '20px', width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
-        <ul style={{ listStyle: 'none', display: 'flex' }}>
-          <li style={{ marginRight: '10px' }}><a href="#">Sign up</a></li>
-          <li style={{ marginRight: '10px' }}><a href="#">Log out</a></li>
-        </ul>
-      </nav>
-
-      <h1 style={{ color: '#692D51', textAlign: 'center', marginBottom: '20px' }}>Find your inner peace!</h1>
-      <p style={{ color: '#692D51', textAlign: 'center', marginBottom: '20px' }}>Design your own yogaplan</p>
-
-      <div style={{ marginBottom: '20px' }}>
-        <img src="meditation.jpg" alt="Meditation" style={{ maxWidth: '100%', height: 'auto' }} />
+    <div style={{ backgroundColor: '#fff', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ position: 'relative' }}>
+        <img src="woman.jpg" alt="Meditation" style={{ maxWidth: '100%', height: 'auto' }} />
+        <div style={{ position: 'absolute', top: '0', right: '0', padding: '10px' }}>
+          <button style={{ backgroundColor: '#C57997', color: '#fff', padding: '8px 16px', border: 'none', borderRadius: '4px', marginRight: '10px' }}>Sign up</button>
+          <button style={{ backgroundColor: '#C57997', color: '#fff', padding: '8px 16px', border: 'none', borderRadius: '4px' }}>Log out</button>
+        </div>
+        <h1 style={{ color: '#692D51', textAlign: 'center', position: 'absolute', top: '5%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '32px', fontWeight: 'bold' }}>Find your inner peace!</h1>
       </div>
 
-      <footer style={{ color: '#000', backgroundColor: '#fff',textAlign: 'center', padding: '10px', width: '100%' }}>
-        YogaPlanner 2023
-      </footer>
+     
+
+      <p style={{ color: '#692D51', textAlign: 'center', marginBottom: '20px' }}>Design your own yogaplan</p>
 
       <form style={{ maxWidth: '400px', width: '100%' }}>
         <h2 style={{ color: '#692D51', textAlign: 'center', marginBottom: '20px' }}>Register</h2>
@@ -44,6 +32,10 @@ function App() {
         </div>
         <button style={{ backgroundColor: '#C57997', color: '#fff', padding: '8px 16px', border: 'none', borderRadius: '4px', width: '100%' }}>Register</button>
       </form>
+      <img src="meditation.jpg" alt="Meditation" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
+      <footer style={{ color: '#000', backgroundColor: '#fff', textAlign: 'center', padding: '40px', width: '100%', fontWeight: 'bold' }}>
+        YogaPlanner 2023
+      </footer>
     </div>
   );
 }
