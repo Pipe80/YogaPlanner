@@ -1,0 +1,64 @@
+/* -------- Front page styling -------- */
+
+.frontpage {
+  background-image: url("../assets/Background.jpeg");
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.frontpage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 12rem;
+  width: 60%;
+}
+
+.frontpage-title {
+  text-align: center;
+  color: #000;
+}
+
+.frontpage-title h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 1rem 0rem;
+}
+
+.frontpage-title h3 {
+  font-size: 1.5rem;
+}
+
+.ctas {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cta-main {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #692D51;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cta-main:hover {
+  color: #fff;
+  background-color: #C57997;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cta-main:active {
+  transform: scale(0.8);
+}
