@@ -8,10 +8,6 @@ import { navAnim } from "../styles/Animations";
 // For logo import
 import Logo from "../assets/Logo.png";
 
-// Social media icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-
 const Nav = () => {
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger-menu");
@@ -55,16 +51,12 @@ const Nav = () => {
         <li>
           <a href="#">About</a>
         </li>
-        <div className="socmedia">
+        <div className="buttons">
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} color="#000" fontSize="30px" />
-            </a>
+            <button className="sign-button" href="#">Sign Up</button>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFacebook} color="#000" fontSize="30px" />
-            </a>
+            <button className="login-button" href="#">Log In</button>
           </li>
         </div>
       </ul>

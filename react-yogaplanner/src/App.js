@@ -6,10 +6,12 @@ import Page from './components/app';
 import Frontpage from './components/FrontPage';
 
 // Styles
+import GlobalStyle from './styles/GlobalStyles';
 
 function App() {
   return (
     <div>
+      <GlobalStyle/>
       <Test/>
       <Frontpage/>
       <Page/>

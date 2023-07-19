@@ -25,9 +25,7 @@
 }
 
 .frontpage-title h1 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  padding: 1rem 0rem;
+  font-size: 3rem;
 }
 
 .frontpage-title h3 {
@@ -36,29 +34,24 @@
 
 .ctas {
   text-align: center;
-  margin-top: 1rem;
 }
 
 .cta-main {
-  margin: 1rem;
-  padding: 1rem 2rem;
+  padding: .7rem 1rem;
   font-size: 1rem;
-  letter-spacing: 0.1rem;
   border: none;
   border-radius: 0.5rem;
   background-color: #692D51;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   color: #fff;
-}
-
-.cta-main:hover {
-  color: #fff;
-  background-color: #C57997;
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-.cta-main:active {
-  transform: scale(0.8);
+  &&:hover {
+    color: #fff;
+    background-color: #C57997;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  &&:active {
+    transform: scale(0.8);
+  }
 }

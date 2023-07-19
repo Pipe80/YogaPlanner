@@ -20,16 +20,16 @@ const FrontPage = () => {
                     className="frontpage-text"
                 >
                     <div className="frontpage-title">
-                        <h1>Lorem ipsum</h1>
+                        <h1>Discover Harmony in Every Sequence</h1>
                         <motion.h3 variants={titleAnim}>
-                            Lorem ipsum dolor sit amet, consectetur adip
+                            Empower Your Practice with our Yoga Sequence Planner
                         </motion.h3>
                     </div>
                     <motion.div 
                         variants={titleAnim}
                         className="ctas"
                     >
-                        <button className="cta-main" onClick={() => {window.location.href='#Contact';}}>Contact</button>
+                        <button className="cta-main" onClick={() => {window.location.href='#Contact';}}>Start planning</button>
                     </motion.div>
                 </motion.div>
             </div>

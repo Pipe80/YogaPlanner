@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-transform: uppercase;
   min-height: 8vh;
   padding: 1.5rem 3rem;
 }
@@ -25,7 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .nav-links li {
@@ -33,6 +32,9 @@
   list-style: none;
   letter-spacing: 0.1rem;
   transition: all 0.3s ease-in-out;
+  &&:hover {
+    transform: scale(1.05);
+  }
 }
 
 .nav-links a {
@@ -40,14 +42,36 @@
   color: #000;
 }
 
-.nav-links li:hover {
-  transform: scale(1.1);
+.buttons{
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
 }
 
-.socmedia {
-  display: flex;
-  gap: 2rem;
+button {
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  &&:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.sign-button {
+  background-color: #C57997;
+}
+
+.login-button {
+  background-color: #692D51;
+}
+
+.sign-button:hover, .login-button:hover {
+  background-color: #858585;
 }
 
 /* -------- Burger menu -------- */
@@ -120,48 +144,4 @@
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-6px, -7px);
-}
-
-/* -------- Portrait mode -------- */
-
-@media screen and (max-height: 1150px) and (orientation: portrait) {
-  .nav-links {
-    font-size: 2.5rem;
-    gap: 3rem;
-  }
-}
-
-@media screen and (max-height: 768px) and (orientation: portrait) {
-  .navbar {
-    padding: 2rem 2rem;
-  }
-  .nav-links {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-height: 568px) and (orientation: portrait) {
-  .nav-links {
-    font-size: 1rem;
-    gap: 2rem;
-  }
-}
-
-/* ----- Landscape mode ------- */
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  .nav-links {
-    font-size: 1.25rem;
-    gap: 2rem;
-  }
-  .navbar {
-    padding: 2rem 2rem;
-  }
-}
-
-@media screen and (max-width: 568px) and (orientation: landscape) {
-  .nav-links {
-    font-size: 1rem;
-    gap: 1.5rem;
-  }
 }
