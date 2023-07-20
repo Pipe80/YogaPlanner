@@ -1,4 +1,4 @@
-/* Resetoi oletusmarginaalit ja -paddingit */
+
 .settings-page {
   margin: 0;
   padding: 0;
@@ -6,29 +6,29 @@
 
 .settings-header {
   display: flex;
-  align-items: flex-start; /* Sijoittaa elementit yläreunaan (vasempaan reunaan) */
-  justify-content: space-between; /* Sijoittaa elementit vaakasuunnassa tasaisesti */
-  background-color: #c57997; /* Taustaväri pinkki */
-  padding: 10px; /* Lisätään hieman reunaväliä yläpalkkiin */
+  align-items: flex-start; 
+  justify-content: space-between; 
+  background-color: #c57997;
+  padding: 10px; 
 }
 
 .logo {
-  width: 50px; /* Säädä kuvan leveys tarpeidesi mukaan */
-  height: 50px; /* Säädä kuvan korkeus tarpeidesi mukaan */
+  width: 50px;
+  height: 50px; 
 }
 
 h2 {
-  margin: 0; /* Nollaa mahdolliset oletusmarginaalit otsikolta */
+  margin: 0; 
 }
 
 .nav-buttons {
   display: flex;
-  align-items: center; /* Sijoittaa elementit pystysuunnassa keskelle */
+  align-items: center;
 }
 
 .settings-button,
 .logout-button {
-  margin-left: 10px; /* Lisätään välistys nappien väliin */
+  margin-left: 10px; 
 }
 
 .settings-content {
@@ -37,19 +37,19 @@ h2 {
 
 .left-sidebar {
   display: flex;
-  flex-direction: column; /* Pystysuuntainen järjestys */
-  background-color: #f0f0f0; /* Harmaa taustaväri */
-  padding: 10px; /* Reunaväli */
+  flex-direction: column; 
+  background-color: #f0f0f0; 
+  padding: 10px; 
 }
 
 .left-sidebar-content {
   display: flex;
-  flex-direction: column; /* Pystysuuntainen järjestys */
-  margin-top: auto; /* Yläreunaan asettelu */
-  gap: 10px; /* Välistys nappejen välillä */
+  flex-direction: column; 
+  margin-top: auto; 
+  gap: 10px;
 }
 
 .back-button,
 .save-button {
-  width: 100px; /* Leveys napille */
+  width: 100px; 
 }

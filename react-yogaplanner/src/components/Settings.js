@@ -21,9 +21,9 @@ const Settings = () => {
           </div>
         </div>
         <div className="settings-center">
-          <div className="language-menu">{/* Language menu content */}</div>
-          <div className="change-password-menu">{/* Change password menu content */}</div>
-          <div className="change-email-menu">{/* Change email menu content */}</div>
+          <div className="language-menu"></div>
+          <div className="change-password-menu"></div>
+          <div className="change-email-menu"></div>
         </div>
       </div>
     </div>
