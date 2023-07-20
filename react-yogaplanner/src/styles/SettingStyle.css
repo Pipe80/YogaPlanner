@@ -1,0 +1,55 @@
+/* Resetoi oletusmarginaalit ja -paddingit */
+.settings-page {
+  margin: 0;
+  padding: 0;
+}
+
+.settings-header {
+  display: flex;
+  align-items: flex-start; /* Sijoittaa elementit yläreunaan (vasempaan reunaan) */
+  justify-content: space-between; /* Sijoittaa elementit vaakasuunnassa tasaisesti */
+  background-color: #c57997; /* Taustaväri pinkki */
+  padding: 10px; /* Lisätään hieman reunaväliä yläpalkkiin */
+}
+
+.logo {
+  width: 50px; /* Säädä kuvan leveys tarpeidesi mukaan */
+  height: 50px; /* Säädä kuvan korkeus tarpeidesi mukaan */
+}
+
+h2 {
+  margin: 0; /* Nollaa mahdolliset oletusmarginaalit otsikolta */
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center; /* Sijoittaa elementit pystysuunnassa keskelle */
+}
+
+.settings-button,
+.logout-button {
+  margin-left: 10px; /* Lisätään välistys nappien väliin */
+}
+
+.settings-content {
+  display: flex;
+}
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column; /* Pystysuuntainen järjestys */
+  background-color: #f0f0f0; /* Harmaa taustaväri */
+  padding: 10px; /* Reunaväli */
+}
+
+.left-sidebar-content {
+  display: flex;
+  flex-direction: column; /* Pystysuuntainen järjestys */
+  margin-top: auto; /* Yläreunaan asettelu */
+  gap: 10px; /* Välistys nappejen välillä */
+}
+
+.back-button,
+.save-button {
+  width: 100px; /* Leveys napille */
+}
