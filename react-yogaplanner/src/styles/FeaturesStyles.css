@@ -1,0 +1,24 @@
+#Features {
+    margin: 3%;
+    padding: 5%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+    gap: 5rem;
+}
+
+.image-container {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.content {
+    flex: 1;
+}

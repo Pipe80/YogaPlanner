@@ -46,10 +46,10 @@ const Nav = () => {
       </div>
       <ul onClick={navToggle} className={active}>
         <li>
-          <a href="#">Features</a>
+          <a href="#Features">Features</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#About">About</a>
         </li>
         <div className="buttons">
           <li>

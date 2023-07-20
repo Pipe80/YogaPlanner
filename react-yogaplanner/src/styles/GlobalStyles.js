@@ -29,6 +29,22 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--heading-font);
     margin-bottom: 1rem;
   }
+
+  h1 {
+    font-size: calc(var(--base-font-size) * 2.618); /* Approximately 41.808rem */
+  }
+  
+  h2 {
+    font-size: calc(var(--base-font-size) * 1.618); /* Approximately 25.888rem */
+  }
+  
+  h3 {
+    font-size: calc(var(--base-font-size) * 1); /* The base font size (16px) */
+  }
+  
+  h4 {
+    font-size: calc(var(--base-font-size) * 0.618); /* Approximately 9.888rem */
+  }
 `;
 
 export default GlobalStyle;

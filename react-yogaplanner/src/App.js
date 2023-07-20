@@ -4,17 +4,17 @@ import React from 'react';
 //import Test from './components/test';
 // import Page from './components/app';
 import Frontpage from './components/FrontPage';
-import Settings from './components/Settings';
+import Features from './components/Features';
+// import Settings from './components/Settings';
 // Styles
-import GlobalStyle from './styles/GlobalStyles';
 
 function App() {
   return (
     <div>
-      <GlobalStyle/>
       {/* <Test/> */}
       <Frontpage/>
-      <Settings/> 
+      <Features/>
+      {/* <Settings/>  */}
       {/* <Page/> */}
     </div>
   );
