@@ -41,13 +41,13 @@
   font-size: 1rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #692D51;
+  background-color: var(--secondary-color);
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   color: #fff;
   &&:hover {
     color: #fff;
-    background-color: #C57997;
+    background-color: var(--primary-color);
     transform: scale(1.05);
     cursor: pointer;
   }

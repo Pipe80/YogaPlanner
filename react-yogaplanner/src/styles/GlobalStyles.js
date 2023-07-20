@@ -5,6 +5,8 @@ const GlobalStyle = createGlobalStyle`
     --primary-color: #C57997;
     --secondary-color: #692D51;
     --accent-color: #858585;
+    --black: #00000;
+    --light-grey: #eaeaea;
     
     --main-font: 'Roboto', sans-serif;
     --heading-font: 'Roboto', sans-serif;
