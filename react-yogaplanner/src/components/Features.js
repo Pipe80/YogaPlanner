@@ -21,7 +21,7 @@ const Features = () => {
             initial="hidden"
             ref={element}
         >
-            <div className="wrapper">
+            <div className="features-wrapper">
                 <div className="image-container">
                     <img src={YogaSequenceImage} alt="Yoga Sequence" />
                 </div>
@@ -35,7 +35,7 @@ const Features = () => {
                     </p>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="features-wrapper">
                 <div className="content">
                     <h2>Elevate Student Experience</h2>
                     <p>
