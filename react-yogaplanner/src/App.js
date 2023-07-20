@@ -5,7 +5,7 @@ import React from 'react';
 // import Page from './components/app';
 import Frontpage from './components/FrontPage';
 import Features from './components/Features';
-// import Settings from './components/Settings';
+import Settings from './components/Settings';
 // Styles
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       {/* <Test/> */}
       <Frontpage/>
       <Features/>
-      {/* <Settings/>  */}
+      <Settings/> 
       {/* <Page/> */}
     </div>
   );
