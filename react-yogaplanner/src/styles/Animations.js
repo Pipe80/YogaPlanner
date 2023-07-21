@@ -10,6 +10,7 @@ export const titleAnim = {
         x: 0,
         transition: {
             duration: 1.5,
+            staggerChildren: 1,
         }
     }
 };
