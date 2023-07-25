@@ -5,7 +5,7 @@ YogaPlanner on suunniteltu työkaluksi joogaohjaajille tai joogasta kiinnostunei
 
 Frontend suunnittelussa on pyritty ottamaan kauniin visuaalisen ilmeen lisäksi huomioon käyttäjäkokemus selkeän ja helppokäyttöisen kokonaisuuden suunnittelussa. Suunnitelussa työvälineenä käytimme Frameria, joka on interaktiivisen suunnittelun ja prototyyppien luomiseen tarkoitettu työkalu. Sen avulla on helppo suunnitella erilaisia sovelluksia.
 
-Frontend toteutuksessa on käytetty Reactia. Projektin vaiheita ja esittely päivittyy tälle sivulle.
+Frontend toteutuksessa on käytetty Reactia. Projektin vaiheet ja esittely niiden esittely päivittyy tälle sivulle.
 
 "Happiness is the highest form of health." - Dalai Lama
 
