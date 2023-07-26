@@ -3,7 +3,8 @@ import "../styles/FrontPageStyles.css";
 import Nav from "./SettingsNav";
 import { motion } from "framer-motion";
 import { titleAnim } from "../styles/Animations";
-import { FaGlobe, FaRegEnvelope } from 'react-icons/fa';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Settings = () => {
     return (
@@ -27,9 +28,21 @@ const Settings = () => {
                     <div className="frontpage-title">
 
                         <h3>FI/EN</h3>
-                        <h2><FaRegEnvelope style={{color: 'green'}}/></h2>
+                        <h2> 
+                          <FontAwesomeIcon 
+                            icon={faEnvelope} 
+                            color="green" 
+                            fontSize="30px"
+                          />
+                        </h2>
                         <h3 style={{color: 'green'}}>change your email</h3>
-                        <h2><FaGlobe style={{color: 'blue'}}/></h2>
+                        <h2> 
+                          <FontAwesomeIcon 
+                            icon={faGlobe} 
+                            color="blue" 
+                            fontSize="30px"
+                          />
+                        </h2>
                         <h3 style={{color: 'blue'}}>change your password</h3>
                         <motion.h3 variants={titleAnim}>
                            Change your password

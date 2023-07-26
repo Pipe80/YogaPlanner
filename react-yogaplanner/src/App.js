@@ -6,7 +6,8 @@ import React from 'react';
 import Frontpage from './components/FrontPage';
 import Features from './components/Features';
 import Quote from './components/Quote';
-import Settings from './components/Settings';
+import Faq from './components/Faq';
+// import Settings from './components/Settings';
 
 // Styles
 
@@ -17,7 +18,8 @@ function App() {
       <Frontpage/>
       <Features/>
       <Quote/>
-      <Settings/> 
+      <Faq/>
+      {/* <Settings/>  */}
       {/* <Page/> */}
     </div>
   );

@@ -1,12 +1,14 @@
 import React from "react";
-import "../styles/FeaturesStyles.css";
+
+// Images
 import YogaSequenceImage from "../assets/Yoga_sequence.jpeg";
 import YogaClassImage from "../assets/Yoga_class.jpeg";
 
-// Animations
+// Animations & styles
 import { motion } from "framer-motion";
 import { scrollReveal } from '../styles/Animations';
 import { useScroll } from "../styles/UseScroll";
+import "../styles/FrontPageStyles.css";
 
 const Features = () => {
 

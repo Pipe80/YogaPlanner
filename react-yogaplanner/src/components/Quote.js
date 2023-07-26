@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/QuoteStyles.css";
 
-// Animations
+// Animations & styles
 import { motion } from "framer-motion";
 import { scrollReveal } from '../styles/Animations';
 import { useScroll } from "../styles/UseScroll";
+import "../styles/FrontPageStyles.css";
 
 const Features = () => {
 

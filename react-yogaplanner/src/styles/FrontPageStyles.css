@@ -13,37 +13,120 @@
   justify-content: center;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 65%;
   transform: translate(-50%, -50%);
   gap: 12rem;
   width: 60%;
 }
 
-.frontpage-title {
-  text-align: center;
-  color: #000;
+/* ----Features ---- */
+
+#Features {
+  margin: 3%;
+  padding: 5%;
 }
 
-.ctas {
-  text-align: center;
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7%;
+  gap: 5rem;
 }
 
-.cta-main {
-  padding: .7rem 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  background-color: var(--secondary-color);
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-  color: #fff;
-  &&:hover {
-    color: #fff;
-    background-color: var(--primary-color);
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  &&:active {
-    transform: scale(0.8);
-  }
+.image-container {
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+/* ---- Quote ---- */
+
+.quote-container {
+  background-image: url("../assets/Quote_background.jpg");
+  background-size: cover;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote-wrapper {
+  text-align: center;
+  color: white;
+}
+
+/* ---- Faq ---- */
+
+#Faq {
+  height: 80vh;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question.active {
+  background-color: #f0f0f0;
+}
+
+.question h4 {
+  margin: 0;
+}
+
+.answer {
+  padding: 1rem 0;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.faq-line {
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+.yoga-planner {
+  margin-left: 1rem;
 }
