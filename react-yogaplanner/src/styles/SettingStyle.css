@@ -1,55 +1,29 @@
+/* FrontPageStyles.css */
 
-.settings-page {
-  margin: 0;
-  padding: 0;
-}
-
-.settings-header {
+.settings-container {
   display: flex;
-  align-items: flex-start; 
-  justify-content: space-between; 
-  background-color: #c57997;
-  padding: 10px; 
-}
-
-.logo {
-  width: 50px;
-  height: 50px; 
-}
-
-h2 {
-  margin: 0; 
-}
-
-.nav-buttons {
-  display: flex;
-  align-items: center;
-}
-
-.settings-button,
-.logout-button {
-  margin-left: 10px; 
-}
-
-.settings-content {
-  display: flex;
+  height: 100vh; /* Set the height of the container to full viewport height */
 }
 
 .left-sidebar {
-  display: flex;
-  flex-direction: column; 
-  background-color: #f0f0f0; 
-  padding: 10px; 
+  width: 100px; /* Set the width of the sidebar to 50px */
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
-.left-sidebar-content {
+.frontpage-text {
+  flex: 1; /* Make the content take up the remaining space */
+  padding: 20px;
+}
+.icon-text-pair {
   display: flex;
-  flex-direction: column; 
-  margin-top: auto; 
+  align-items: center;
   gap: 10px;
 }
-
-.back-button,
-.save-button {
-  width: 100px; 
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto; 
+  padding: 10px;
+  background-color: #f2f2f2;
 }
