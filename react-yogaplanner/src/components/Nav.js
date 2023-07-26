@@ -49,7 +49,7 @@ const Nav = () => {
           <a href="#Features">Features</a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="#Faq">FAQ</a>
         </li>
         <div className="buttons">
           <li>
