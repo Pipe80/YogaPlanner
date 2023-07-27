@@ -5,7 +5,7 @@ import { titleAnim } from "../styles/Animations";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faGlobe, faLock } from '@fortawesome/free-solid-svg-icons';
 
-import "../styles/SettingStyles.css";
+import "../styles/SettingStyle.css";
 
 const Settings = () => {
     return (
