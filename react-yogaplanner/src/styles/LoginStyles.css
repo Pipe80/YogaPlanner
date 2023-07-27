@@ -10,7 +10,7 @@
 
 .loginpage-container {
   width: 50%;
-  height: 50%;
+  height: 65%;
   display: flex;
   background-color: var(--login-box);
   border-radius: 20px;
