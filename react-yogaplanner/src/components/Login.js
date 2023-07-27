@@ -8,9 +8,9 @@ import Logo from "../assets/Logo.png";
 const Login = () => {
   return (
     <div className="login-page">
-      <Nav />
+      {/* <Nav /> */}
       <div className="loginpage-container">
-        <div className="login-page-bg"></div>
+        {/* <div className="login-page-bg"></div> */}
         <motion.div
           variants={titleAnim}
           initial="hidden"

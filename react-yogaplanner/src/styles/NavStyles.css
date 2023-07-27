@@ -27,16 +27,8 @@
   gap: 1rem;
 }
 
-.sign-button {
-  background-color: var(--primary-color);
-}
-
 .login-button {
   background-color: var(--secondary-color);
-}
-
-.sign-button:hover, .login-button:hover {
-  background-color: var(--black);
 }
 
 /* -------- Burger menu -------- */

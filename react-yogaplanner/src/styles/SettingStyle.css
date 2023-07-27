@@ -10,6 +10,10 @@
   padding: 10px;
 }
 
+.logo-yoga {
+  display: flex;
+}
+
 .frontpage-text {
   flex: 1; /* Make the content take up the remaining space */
   padding: 20px;

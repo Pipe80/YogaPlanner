@@ -37,7 +37,7 @@ const SettingsNav = () => {
 
   return (
     <motion.nav variants={navAnim} initial="hidden" animate="show" className="navbar">
-      <div className="logo">
+      <div className="logo-yoga">
         
         <img src={Logo} className="logo" alt="Logo" />
         

@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     --black: #000000;
     --white: #ffffff;
     --light-grey: #eaeaea;
+    --login-box: #ffffff52;
     
     --main-font: 'Roboto', sans-serif;
     --heading-font: 'Roboto', sans-serif;
@@ -29,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     margin-bottom: 1rem;
+  }
+
+  p {
+    font-family: var(--main-font);
   }
 
   h1 {
@@ -76,7 +81,8 @@ const GlobalStyle = createGlobalStyle`
   
   button:hover {
       cursor: pointer;
-      background-color: var(--black);
+      color: var(--white);
+      background-color: var(--accent-color);
       transform: scale(1.05);
   }
 
@@ -84,7 +90,6 @@ const GlobalStyle = createGlobalStyle`
     max-width: 100%;
     border-radius: 1rem;
   }
-  
 
 `;
 
