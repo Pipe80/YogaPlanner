@@ -1,14 +1,37 @@
+/* LoginComponentStyles.css */
+
+.login-page {
+  position: relative; /* Make sure the login-page container is positioned */
+  width: 100%;
+  height: 100vh; /* Set the height of the container to full viewport height */
+  background: linear-gradient(45deg, #C57997, #692D51);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginpage-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .login-page-bg {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #C57997, #692D51);
+  background: linear-gradient(45deg, #e1bdcb, #984577);
 }
 
 .login-text {
   z-index: 1;
   color: white;
+  text-align: center; /* Center the text content */
 }
 
 .logo-and-text {
@@ -37,7 +60,7 @@
   width: 100%;
   padding: 10px;
   background-color: #C57997;
-  color: #000;
+  color: #d1cfcf;
   border: none;
   cursor: pointer;
   font-size: 1rem;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/LoginStyles.css";
-import Nav from "./Nav"; // Make sure this import is correct
+import Nav from "./Nav";
 import { motion } from "framer-motion";
 import { titleAnim } from "../styles/Animations";
 import Logo from "../assets/Logo.png";
