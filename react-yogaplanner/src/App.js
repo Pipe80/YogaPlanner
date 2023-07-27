@@ -19,9 +19,8 @@ function App() {
         <Features />
         <Quote />
         <Faq />
-        <Settings />
-        <Login/>
-        <SignIn/>
+        {/* <Settings />
+        <SignIn/> */}
       </Router>
     </div>
   );
