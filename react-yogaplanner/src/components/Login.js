@@ -19,7 +19,7 @@ const Login = () => {
         >
           <div className="frontpage-title">
             <div className="logo-and-text">
-              <img src={Logo} alt="YogaPlanner-logo" className="logo" />
+              <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
               <h1>YogaPlanner</h1>
             </div>
           </div>

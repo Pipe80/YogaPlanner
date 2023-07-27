@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { navAnim } from "../styles/Animations";
 
 // For logo import
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo_test.png";
 
 const Nav = () => {
   const [active, setActive] = useState("nav-links");
