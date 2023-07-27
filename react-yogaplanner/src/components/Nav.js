@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom'
 import "../styles/NavStyles.css";
 
 // Animations
@@ -53,10 +54,14 @@ const Nav = () => {
         </li>
         <div className="buttons">
           <li>
-            <button className="sign-button" href="#">Sign Up</button>
+            <Link to="/signup">
+                <button className="sign-button" >Sign Up</button>
+            </Link>
           </li>
           <li>
-            <button className="login-button" href="#">Log In</button>
+            <Link to="/signin">
+              <button className="login-button">Log In</button>
+            </Link>
           </li>
         </div>
       </ul>

@@ -5,22 +5,22 @@ import Features from './components/Features';
 import Quote from './components/Quote';
 import Faq from './components/Faq';
 import Settings from './components/Settings';
-import Login from "./components/Login"; 
 import SignIn from "./components/SignIn"; 
+import SignUp from "./components/SignUp"; 
 
 function App() {
   return (
     <div>
       <Router>
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
         <Frontpage />
         <Features />
         <Quote />
         <Faq />
-        {/* <Settings />
-        <SignIn/> */}
       </Router>
     </div>
   );
