@@ -3,7 +3,7 @@ import "../styles/LoginStyles.css";
 import Nav from "./Nav";
 import { motion } from "framer-motion";
 import { titleAnim } from "../styles/Animations";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo_test.png";
 
 const Login = () => {
   return (
@@ -20,7 +20,6 @@ const Login = () => {
           <div className="frontpage-title">
             <div className="logo-and-text">
               <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
-              <h1>YogaPlanner</h1>
             </div>
           </div>
           <div className="login-form">
