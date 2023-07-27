@@ -20,10 +20,10 @@ const FrontPage = () => {
                     className="frontpage-text"
                 >
                     <div className="frontpage-title">
-                        <h1>Discover Harmony in Every Sequence</h1>
-                        <motion.h3 variants={titleAnim}>
+                        <h1>Harmony in Every Move</h1>
+                        <motion.h4 variants={titleAnim}>
                             Empower Your Practice with our Yoga Sequence Planner
-                        </motion.h3>
+                        </motion.h4>
                     </div>
                     <motion.div 
                         variants={titleAnim}

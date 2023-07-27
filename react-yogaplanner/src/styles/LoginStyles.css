@@ -27,7 +27,7 @@
 
 .login-text {
   z-index: 1;
-  color: white;
+
   text-align: center; 
 }
 
@@ -43,7 +43,7 @@
   height: 40px;
 }
 
-.frontpage-title h1 {
+.frontpage-title {
   margin: 0;
   font-size: 2rem;
 }
@@ -54,13 +54,17 @@
   margin-bottom: 10px;
 }
 
-.login-button {
+.login-btn {
   width: 100%;
 }
 
 .forgot-password {
-  color: white;
   text-decoration: underline;
   padding: 10px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.forgot-password:active {
+  transform: scale(0.95);
 }

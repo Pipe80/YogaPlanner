@@ -24,11 +24,11 @@ const Login = () => {
             </div>
           </div>
           <div className="login-form">
-            <label htmlFor="email">Email</label>
+            {/* <label htmlFor="email">Email</label> */}
             <input type="text" id="email" placeholder="Email" className="input-field" />
-            <label htmlFor="password">Password</label>
+            {/* <label htmlFor="password">Password</label> */}
             <input type="password" id="password" placeholder="Password" className="input-field" />
-            <button className="login-button">Log In</button>
+            <button className="login-btn">Log In</button>
           </div>
           <p className="forgot-password">Forgot your password?</p>
         </motion.div>

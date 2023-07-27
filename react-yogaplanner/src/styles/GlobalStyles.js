@@ -10,8 +10,8 @@ const GlobalStyle = createGlobalStyle`
     --light-grey: #eaeaea;
     --login-box: #ffffff52;
     
-    --main-font: 'Roboto', sans-serif;
-    --heading-font: 'Roboto', sans-serif;
+    --main-font: 'Poppins', sans-serif; /* Changed the main font to Poppins */
+    --heading-font: 'Poppins', sans-serif; /* Changed the heading font to Poppins */
     --base-font-size: 16px;
   }
 
@@ -29,27 +29,36 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 
   p {
     font-family: var(--main-font);
+    font-size: 1rem; /* The base font size */
   }
 
   h1 {
-    font-size: calc(var(--base-font-size) * 2.618); /* Approximately 41.808rem */
+    font-size: 4.209rem; /* Approximately 67.34px */
   }
   
   h2 {
-    font-size: calc(var(--base-font-size) * 1.618); /* Approximately 25.888rem */
+    font-size: 3.157rem; /* Approximately 50.52px */
   }
   
   h3 {
-    font-size: calc(var(--base-font-size) * 1); /* The base font size (16px) */
+    font-size: 2.369rem; /* Approximately 37.90px */
   }
   
   h4 {
-    font-size: calc(var(--base-font-size) * 0.618); /* Approximately 9.888rem */
+    font-size: 1.777rem; /* Approximately 28.43px */
+  }
+  
+  h5 {
+    font-size: 1.333rem; /* Approximately 21.33px */
+  }
+
+  h6 {
+    font-size: 1rem; /* Same as the base font size (16.00px) */
   }
 
   a {
@@ -80,17 +89,16 @@ const GlobalStyle = createGlobalStyle`
   }
   
   button:hover {
-      cursor: pointer;
-      color: var(--white);
-      background-color: var(--accent-color);
-      transform: scale(1.05);
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--accent-color);
+    transform: scale(1.05);
   }
 
   img {
     max-width: 100%;
     border-radius: 1rem;
   }
-
 `;
 
 export default GlobalStyle;
