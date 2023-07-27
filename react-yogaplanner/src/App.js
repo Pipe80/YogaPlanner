@@ -11,18 +11,18 @@ import SignIn from "./components/SignIn";
 function App() {
   return (
     <div>
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
         </Routes>
-      </Router> */}
-      <Frontpage />
-      <Features />
-      <Quote />
-      <Faq />
-      <Settings />
-      <Login/>
-      <SignIn/>
+        <Frontpage />
+        <Features />
+        <Quote />
+        <Faq />
+        <Settings />
+        <Login/>
+        <SignIn/>
+      </Router>
     </div>
   );
 }

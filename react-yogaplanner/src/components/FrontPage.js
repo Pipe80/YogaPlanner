@@ -30,9 +30,9 @@ const FrontPage = () => {
                         variants={titleAnim}
                         className="ctas"
                     >
-                        {/* <Link to="/login">
-                            <button className="cta-main">Start planning</button>
-                        </Link> */}
+                        <Link to="/login">
+                            <button>Start planning</button>
+                        </Link>
                     </motion.div>
                 </motion.div>
             </div>

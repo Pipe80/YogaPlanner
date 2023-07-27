@@ -9,29 +9,14 @@
 }
 
 .loginpage-container {
-  width: 50%;
-  height: 65%;
-  display: flex;
-  background-color: var(--login-box);
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: var(--login-box);
-  border-radius: .4rem;
-  padding: 3rem 7rem;
-  width: 30%;
+  border-radius: 20px;
+  padding: 6rem 12rem;
   gap: .5rem;
-}
-
-.frontpage-title {
-  padding-bottom: 1rem;
 }
 
 .login-text {
