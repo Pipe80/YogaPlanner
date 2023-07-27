@@ -1,9 +1,8 @@
-/* LoginComponentStyles.css */
 
 .login-page {
-  position: relative; /* Make sure the login-page container is positioned */
+  position: relative; 
   width: 100%;
-  height: 100vh; /* Set the height of the container to full viewport height */
+  height: 100vh; 
   background: linear-gradient(45deg, #C57997, #692D51);
   display: flex;
   flex-direction: column;
@@ -31,7 +30,7 @@
 .login-text {
   z-index: 1;
   color: white;
-  text-align: center; /* Center the text content */
+  text-align: center; 
 }
 
 .logo-and-text {
