@@ -41,7 +41,7 @@ const FaqSection = () => {
       initial="hidden"
       ref={element}
     >
-      <h2>Frequently Asked Questions</h2>
+      <h3>Frequently Asked Questions</h3>
       <LayoutGroup>
         {faqs.map((faq, index) => (
           <motion.div
@@ -50,7 +50,7 @@ const FaqSection = () => {
             className="question"
             onClick={() => toggleFaq(index)}
           >
-            <motion.h4 layout>{faq.question}</motion.h4>
+            <motion.h6 layout>{faq.question}</motion.h6>
             {activeIndex === index && (
               <div className="answer">
                 <p>{faq.answer}</p>

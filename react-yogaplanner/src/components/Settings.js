@@ -26,37 +26,36 @@ const Settings = () => {
                     className="frontpage-text"
                 >
                     <div className="frontpage-title">
-                        <h3>FI/EN</h3>
                         <div className="icon-text-pair">
-                            <h2> 
+                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faEnvelope} 
                                     color="#692D51"
                                 />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>Change your email</h3>
+                            </h4>
+                            <h5 style={{color: '#692D51'}}>Change your email</h5>
                         </div>
                         <div className="icon-text-pair">
-                            <h2> 
+                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faLock} 
                                     color="#692D51"
                                 />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>Change your password</h3>
+                            </h4>
+                            <h5 style={{color: '#692D51'}}>Change your password</h5>
                         </div>
                         <div className="icon-text-pair">
-                            <h2> 
+                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faGlobe} 
                                     color="#692D51" 
                                 />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>FI/EN</h3>
+                            </h4>
+                            <h5 style={{color: '#692D51'}}>FI/EN</h5>
                         </div>
-                        <motion.h3 variants={titleAnim}>
+                        <motion.h5 variants={titleAnim}>
                             Change your password
-                        </motion.h3>
+                        </motion.h5>
                     </div>
                     <motion.div 
                         variants={titleAnim}

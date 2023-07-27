@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     --accent-color: #858585;
     --black: #000000;
     --white: #ffffff;
+    --dark-grey: #333333;
     --light-grey: #eaeaea;
     --login-box: #ffffff52;
     
@@ -98,6 +99,11 @@ const GlobalStyle = createGlobalStyle`
   img {
     max-width: 100%;
     border-radius: 1rem;
+  }
+
+  input {
+    border: none;
+    width: 100%;
   }
 `;
 

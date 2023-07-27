@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "../styles/FrontPageStyles.css";
 
 // Components 
@@ -11,10 +12,10 @@ import { titleAnim } from "../styles/Animations";
 const FrontPage = () => {
     return (
         <div className="frontpage">
-            <Nav/>
+            <Nav />
             <div className="frontpage-container">
-                <motion.div 
-                    variants={titleAnim} 
+                <motion.div
+                    variants={titleAnim}
                     initial="hidden"
                     animate="show"
                     className="frontpage-text"
@@ -25,11 +26,13 @@ const FrontPage = () => {
                             Empower Your Practice with our Yoga Sequence Planner
                         </motion.h4>
                     </div>
-                    <motion.div 
+                    <motion.div
                         variants={titleAnim}
                         className="ctas"
                     >
-                        <button className="cta-main" onClick={() => {window.location.href='#Contact';}}>Start planning</button>
+                        {/* <Link to="/login">
+                            <button className="cta-main">Start planning</button>
+                        </Link> */}
                     </motion.div>
                 </motion.div>
             </div>

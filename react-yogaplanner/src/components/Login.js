@@ -9,29 +9,22 @@ const Login = () => {
   return (
     <div className="login-page">
       {/* <Nav /> */}
-      <div className="loginpage-container">
-        {/* <div className="login-page-bg"></div> */}
-        <motion.div
-          variants={titleAnim}
-          initial="hidden"
-          animate="show"
-          className="login-text"
-        >
+      <motion.div 
+        variants={titleAnim}
+        initial="hidden"
+        animate="show"
+        className="loginpage-container"
+      >
           <div className="frontpage-title">
-            <div className="logo-and-text">
               <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
-            </div>
           </div>
-          <div className="login-form">
             {/* <label htmlFor="email">Email</label> */}
             <input type="text" id="email" placeholder="Email" className="input-field" />
             {/* <label htmlFor="password">Password</label> */}
             <input type="password" id="password" placeholder="Password" className="input-field" />
             <button className="login-btn">Log In</button>
-          </div>
-          <p className="forgot-password">Forgot your password?</p>
-        </motion.div>
-      </div>
+            <p className="forgot-password">Forgot your password?</p>
+      </motion.div>
     </div>
   );
 };
