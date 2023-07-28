@@ -17,15 +17,15 @@ const FaqSection = () => {
   const faqs = [
     {
       question: "How Do I Start?",
-      answer: "Lorem ipsum dolor sit amet.",
+      answer: "Create a account and start using it today.",
     },
     {
-      question: "Daily Schedule",
-      answer: "Lorem ipsum dolor sit amet.",
+      question: "What is YogaPlanner?",
+      answer: "YogaPlanner is a app for yoga teachers.",
     },
     {
-      question: "Different Payment Methods",
-      answer: "Lorem ipsum dolor sit amet.",
+      question: "Is it easy to learn?",
+      answer: "There are different levels for beginners and so on.",
     },
   ];
 

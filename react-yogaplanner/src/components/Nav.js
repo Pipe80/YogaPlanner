@@ -41,7 +41,12 @@ const Nav = () => {
   };
 
   return (
-    <motion.nav variants={navAnim} initial="hidden" animate="show" className="navbar">
+    <motion.nav 
+      variants={navAnim} 
+      initial="hidden" 
+      animate="show" 
+      className="navbar"
+    >
       <div className="logo">
         <img src={Logo} className="logo" alt="Logo" />
       </div>

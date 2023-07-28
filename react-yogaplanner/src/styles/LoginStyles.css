@@ -15,7 +15,8 @@
   flex-direction: column;
   background-color: var(--login-box);
   border-radius: 20px;
-  padding: 6rem 12rem;
+  padding: 4rem 8rem;
+  width: 30%;
   gap: .5rem;
 }
 

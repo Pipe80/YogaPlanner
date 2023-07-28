@@ -11,8 +11,9 @@ const GlobalStyle = createGlobalStyle`
     --light-grey: #eaeaea;
     --login-box: #ffffff52;
     
-    --main-font: 'Poppins', sans-serif; /* Changed the main font to Poppins */
-    --heading-font: 'Poppins', sans-serif; /* Changed the heading font to Poppins */
+    --main-font: 'Poppins', sans-serif; 
+    --heading-font: 'Poppins', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif; 
     --base-font-size: 16px;
   }
 
@@ -30,6 +31,7 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+    font-weight: 400;
     margin-bottom: .5rem;
   }
 
@@ -105,6 +107,38 @@ const GlobalStyle = createGlobalStyle`
     border: none;
     width: 100%;
   }
+
+  /* Add media queries for mobile responsiveness */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Reduce the base font size for mobile devices */
+    }
+
+    h1 {
+      font-size: 3.375rem; /* Adjust h1 font size for mobile */
+    }
+
+    h2 {
+      font-size: 2.827rem; /* Adjust h2 font size for mobile */
+    }
+
+    h3 {
+      font-size: 2.25rem; /* Adjust h3 font size for mobile */
+    }
+
+    h4 {
+      font-size: 1.999rem; /* Adjust h4 font size for mobile */
+    }
+
+    h5 {
+      font-size: 1.414rem; /* Adjust h5 font size for mobile */
+    }
+
+    h6 {
+      font-size: 1.125rem; /* Adjust h6 font size for mobile */
+    }
+  }
+  
 `;
 
 export default GlobalStyle;

@@ -20,10 +20,10 @@ const Features = () => {
             ref={element}
         >
             <div className="quote-wrapper">
-                <h3 className="content">
+                <h3 className="quote-content">
                     Happiness is the highest form of health
                 </h3>
-                <h4 className="content">
+                <h4 className="quote-content">
                     ~ Dalai Lama
                 </h4>
             </div>
