@@ -26,55 +26,50 @@ const Settings = () => {
                     className="frontpage-text"
                 >
                     <div className="frontpage-title">
-                        <div className="icon-text-pair">
-                            <h4> 
+                        <div className="icon-text-pair">                       
                                 <FontAwesomeIcon 
                                     icon={faEnvelope} 
                                     color="#692D51"
+                                    font-size="20px"
                                 />
-                            </h4>
-                            <h5 style={{color: '#692D51'}}>Change your email</h5>
+                            <h6 style={{color: '#692D51'}}>Change your email</h6>
                         </div>
                         <div className="icon-text-pair">
-                            <h4> 
-                                <FontAwesomeIcon 
-                                    icon={faEnvelope} 
+                            <FontAwesomeIcon
+                                    icon={faLock}
                                     color="#692D51"
+                                    font-size="20px"
                                 />
-                            </h4>
-                            <h5 style={{color: '#692D51'}}>Notifications</h5>
+                   
+                            <h6 style={{color: '#692D51'}}>Notifications</h6>
                         </div>
                 
                         <div className="icon-text-pair">
-                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faEnvelope} 
                                     color="#692D51"
+                                    font-size="20px"
                                 />
-                            </h4>
-                            <h5 style={{color: '#692D51'}}>
-                            Terms of use & Privacy notices</h5>
+                            <h6 style={{color: '#692D51'}}>
+                            Terms of use & Privacy notices</h6>
                         </div>
                         <div className="icon-text-pair">
-                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faLock} 
                                     color="#692D51"
-                                />
-                            </h4>
-                            
-                            <h5 style={{color: '#692D51'}}>Change your password</h5>
+                                    font-size="20px"
+                                />                          
+                            <h6 style={{color: '#692D51'}}>Change your password</h6>
                         </div>
                         <div className="icon-text-pair">
-                            <h4> 
                                 <FontAwesomeIcon 
                                     icon={faGlobe} 
                                     color="#692D51" 
+                                    font-size="20px"
                                 />
-                            </h4>
-                            <h5 style={{color: '#692D51'}}>FI/EN</h5>
+
+                            <h6 style={{color: '#692D51'}}>FI/EN</h6>
                         </div>
-               
                     </div>
                     <motion.div 
                         variants={titleAnim}
