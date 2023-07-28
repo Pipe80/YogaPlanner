@@ -12,12 +12,12 @@ const Settings = () => {
         <div className="settings">
             <Nav/>
             <div className="settings-container">
-                <div className="left-sidebar">
+       {/*          <div className="left-sidebar">
                     <div className="left-sidebar-content">
                         <button className="back-button">Back</button>
                         <button className="save-button">Save</button>
                     </div>
-                </div>
+                </div> */}
 
                 <motion.div 
                     variants={titleAnim} 
@@ -38,10 +38,31 @@ const Settings = () => {
                         <div className="icon-text-pair">
                             <h4> 
                                 <FontAwesomeIcon 
+                                    icon={faEnvelope} 
+                                    color="#692D51"
+                                />
+                            </h4>
+                            <h5 style={{color: '#692D51'}}>Notifications</h5>
+                        </div>
+                
+                        <div className="icon-text-pair">
+                            <h4> 
+                                <FontAwesomeIcon 
+                                    icon={faEnvelope} 
+                                    color="#692D51"
+                                />
+                            </h4>
+                            <h5 style={{color: '#692D51'}}>
+                            Terms of use & Privacy notices</h5>
+                        </div>
+                        <div className="icon-text-pair">
+                            <h4> 
+                                <FontAwesomeIcon 
                                     icon={faLock} 
                                     color="#692D51"
                                 />
                             </h4>
+                            
                             <h5 style={{color: '#692D51'}}>Change your password</h5>
                         </div>
                         <div className="icon-text-pair">
@@ -53,9 +74,7 @@ const Settings = () => {
                             </h4>
                             <h5 style={{color: '#692D51'}}>FI/EN</h5>
                         </div>
-                        <motion.h5 variants={titleAnim}>
-                            Change your password
-                        </motion.h5>
+               
                     </div>
                     <motion.div 
                         variants={titleAnim}
