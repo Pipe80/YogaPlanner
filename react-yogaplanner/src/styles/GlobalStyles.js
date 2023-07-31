@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-size: 4.209rem; /* Approximately 67.34px */
   }
-  
+
   h2 {
     font-size: 3.157rem; /* Approximately 50.52px */
   }
@@ -109,7 +109,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* Add media queries for mobile responsiveness */
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     body {
       font-size: 14px; /* Reduce the base font size for mobile devices */
     }

@@ -15,12 +15,12 @@ const AppNav = () => {
       <ul className="nav-links">
         <li>
            <Link to="/settings">
-                <a>Settings</a>
+              Settings
             </Link>
         </li>
         <li>
             <Link to="/">
-                <button>Log out</button>
+              <button>Log out</button>
             </Link>
         </li>
       </ul>

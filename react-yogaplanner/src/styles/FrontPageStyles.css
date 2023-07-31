@@ -19,6 +19,21 @@
   width: 60%;
 }
 
+@media (max-width: 1200px) {
+  .frontpage-container {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .frontpage-container {
+    left: 50%;
+  }
+  .frontpage {
+    background-size:auto;
+  }
+}
+
 /* ----Features ---- */
 
 #Features {
@@ -39,6 +54,17 @@
 
 .content {
   flex: 1;
+}
+
+@media (max-width: 900px) {
+  .features-wrapper {
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 10%;
+  }
+  .class {
+    flex-direction: column-reverse;
+  }
 }
 
 /* ---- Quote ---- */
@@ -67,7 +93,6 @@
   padding: 10rem 20rem;
   background-color: #ffffff;
   border-radius: 10px;
-
 }
 
 .question {
@@ -84,6 +109,26 @@
   margin-top: 1rem;
   border-top: 1px solid #ccc;
 }
+
+@media (max-width: 1500px) {
+  #Faq {
+    padding: 7rem 14rem;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  #Faq {
+    padding: 5rem 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Faq {
+    padding: 3rem;
+  }
+}
+
 
 
 /* ---- Footer ---- */

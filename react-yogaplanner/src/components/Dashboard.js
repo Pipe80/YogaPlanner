@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/AppStyles.css";
 
 // Components 
 import AppNav from "./AppNav";

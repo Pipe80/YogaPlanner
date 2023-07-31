@@ -37,7 +37,7 @@ const Features = () => {
                     </p>
                 </div>
             </div>
-            <div className="features-wrapper">
+            <div className="features-wrapper class">
                 <div className="content">
                     <h2>Elevate Student Experience</h2>
                     <p>
