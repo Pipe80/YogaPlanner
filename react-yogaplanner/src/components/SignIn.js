@@ -19,11 +19,9 @@ const Login = () => {
           <div className="frontpage-title">
               <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
           </div>
-            {/* <label htmlFor="email">Email</label> */}
             <input type="text" id="email" placeholder="Email" className="input-field" />
-            {/* <label htmlFor="password">Password</label> */}
             <input type="password" id="password" placeholder="Password" className="input-field" />
-            <Link to="/settings">
+            <Link to="/dashboard">
                 <button className="login-btn">Log In</button>
             </Link>
             <p className="forgot-password">Forgot your password?</p>
