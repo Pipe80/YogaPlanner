@@ -1,7 +1,11 @@
 
+
 .settings-container {
   display: flex;
-  height: 100vh; /* Set the height of the container to full viewport height */
+  align-items: flex-start;
+  flex-direction: column; 
+  height: 100vh; 
+  padding: 5rem 10rem;
 }
 
 .left-sidebar {
@@ -10,19 +14,24 @@
   padding: 10px;
 }
 
+.settings-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-yoga {
   display: flex;
+}
+
+span {
+  margin-left: 1rem;
 }
 
 .frontpage-text {
   flex: 1; /* Make the content take up the remaining space */
   padding: 20px;
 }
-.icon-text-pair {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 .bottom-buttons {
   display: flex;
   justify-content: space-between;

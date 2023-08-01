@@ -11,8 +11,7 @@
 .logo {
   display: flex;
   justify-content: center;
-  width: 75px;
-  height: 50px;
+  width: 115px;
 }
 
 .nav-links {
@@ -73,7 +72,7 @@
     align-items: center;
     justify-content: center;
     transform: translateX(100%);
-    transition: transform 0.1s step-end;
+    transition: transform 0.3s ease;
     z-index: 1;
   }
 
@@ -86,7 +85,7 @@
 
 .nav-active {
   transform: translateX(0%);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* -------- Toggle animation -------- */

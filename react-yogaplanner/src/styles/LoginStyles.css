@@ -9,58 +9,42 @@
 }
 
 .loginpage-container {
-  width: 50%;
-  height: 50%;
-  display: flex;
-  background-color: var(--login-box);
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: var(--login-box);
+  border-radius: 20px;
+  padding: 4rem 8rem;
+  width: 30%;
+  gap: .5rem;
 }
 
 .login-text {
-  z-index: 1;
-  color: white;
   text-align: center; 
 }
 
-.logo-and-text {
+.logo-login {
   display: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo {
-  display: center;
-  width: 50px;
-  height: 40px;
-}
-
-.frontpage-title h1 {
-  margin: 0;
-  font-size: 2rem;
+  width: 150px;
 }
 
 .input-field {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  border-radius: .4rem;
+  padding: .8rem;
 }
 
-.login-button {
+.login-btn {
   width: 100%;
 }
 
 .forgot-password {
-  color: white;
   text-decoration: underline;
   padding: 10px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.forgot-password:active {
+  transform: scale(0.95);
 }

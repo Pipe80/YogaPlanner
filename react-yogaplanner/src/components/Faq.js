@@ -17,15 +17,15 @@ const FaqSection = () => {
   const faqs = [
     {
       question: "How Do I Start?",
-      answer: "Lorem ipsum dolor sit amet.",
+      answer: "Create a account and start using it today.",
     },
     {
-      question: "Daily Schedule",
-      answer: "Lorem ipsum dolor sit amet.",
+      question: "What is YogaPlanner?",
+      answer: "YogaPlanner is a app for yoga teachers.",
     },
     {
-      question: "Different Payment Methods",
-      answer: "Lorem ipsum dolor sit amet.",
+      question: "Is it easy to learn?",
+      answer: "There are different levels for beginners and so on.",
     },
   ];
 
@@ -41,7 +41,7 @@ const FaqSection = () => {
       initial="hidden"
       ref={element}
     >
-      <h2>Frequently Asked Questions</h2>
+      <h3>Frequently Asked Questions</h3>
       <LayoutGroup>
         {faqs.map((faq, index) => (
           <motion.div
@@ -50,7 +50,7 @@ const FaqSection = () => {
             className="question"
             onClick={() => toggleFaq(index)}
           >
-            <motion.h4 layout>{faq.question}</motion.h4>
+            <motion.h6 layout>{faq.question}</motion.h6>
             {activeIndex === index && (
               <div className="answer">
                 <p>{faq.answer}</p>

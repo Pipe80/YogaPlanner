@@ -1,72 +1,63 @@
 import React from "react";
-import Nav from "./SettingsNav";
-import { motion } from "framer-motion";
-import { titleAnim } from "../styles/Animations";
+import AppNav from "./AppNav";
+
+// Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGlobe, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faGlobe, faLock, faInfo, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 import "../styles/SettingStyle.css";
 
 const Settings = () => {
     return (
         <div className="settings">
-            <Nav/>
+            <AppNav/>
             <div className="settings-container">
-                <div className="left-sidebar">
-                    <div className="left-sidebar-content">
-                        <button className="back-button">Back</button>
-                        <button className="save-button">Save</button>
-                    </div>
+                <div className="settings-wrapper">              
+                    <FontAwesomeIcon 
+                        icon={faEnvelope} 
+                        color="#692D51"
+                        width="30px"
+                    />
+                    <span style={{color: '#692D51'}}>
+                        Change your email</span>
                 </div>
-
-                <motion.div 
-                    variants={titleAnim} 
-                    initial="hidden"
-                    animate="show"
-                    className="frontpage-text"
-                >
-                    <div className="frontpage-title">
-                        <h3>FI/EN</h3>
-                        <div className="icon-text-pair">
-                            <h2> 
-                                <FontAwesomeIcon 
-                                    icon={faEnvelope} 
-                                    color="#692D51"
-                                />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>Change your email</h3>
-                        </div>
-                        <div className="icon-text-pair">
-                            <h2> 
-                                <FontAwesomeIcon 
-                                    icon={faLock} 
-                                    color="#692D51"
-                                />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>Change your password</h3>
-                        </div>
-                        <div className="icon-text-pair">
-                            <h2> 
-                                <FontAwesomeIcon 
-                                    icon={faGlobe} 
-                                    color="#692D51" 
-                                />
-                            </h2>
-                            <h3 style={{color: '#692D51'}}>FI/EN</h3>
-                        </div>
-                        <motion.h3 variants={titleAnim}>
-                            Change your password
-                        </motion.h3>
-                    </div>
-                    <motion.div 
-                        variants={titleAnim}
-                        className="ctas"
-                    >
-                    </motion.div>
-                </motion.div>
+                <div className="settings-wrapper">
+                    <FontAwesomeIcon
+                        icon={faInfo}
+                        color="#692D51"
+                        width="30px"
+                    />
+                    <span style={{color: '#692D51'}}>Notifications</span>
+                </div>
+                <div className="settings-wrapper">
+                    <FontAwesomeIcon 
+                        icon={faInfoCircle} 
+                        color="#692D51"
+                        width="30px"
+                    />
+                    <span style={{color: '#692D51'}}>
+                        Terms of use & Privacy notices
+                    </span>
+                </div>
+                <div className="settings-wrapper">
+                    <FontAwesomeIcon 
+                        icon={faLock} 
+                        color="#692D51"
+                        width="30px"
+                    />                          
+                    <span style={{color: '#692D51'}}>Change your password</span>
+                </div>
+                <div className="settings-wrapper">
+                    <FontAwesomeIcon 
+                        icon={faGlobe} 
+                        color="#692D51" 
+                        width="30px"
+                    />
+                    <span style={{color: '#692D51'}}>FI/EN</span>
+                </div>
             </div>
         </div>
     );
-}
+};
  
 export default Settings;

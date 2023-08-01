@@ -26,6 +26,7 @@ export const navAnim = {
         transition: {
             duration: 1,
             transform: "ease-in",
+            ease: "easeInOut"
         }
     },
 };

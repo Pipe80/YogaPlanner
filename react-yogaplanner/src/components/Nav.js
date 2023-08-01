@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom'
 import "../styles/NavStyles.css";
 
 // Animations
@@ -6,41 +7,31 @@ import { motion } from "framer-motion";
 import { navAnim } from "../styles/Animations";
 
 // For logo import
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo_test.png";
 
 const Nav = () => {
-  const [active, setActive] = useState("nav-links");
-  const [toggleIcon, setToggleIcon] = useState("burger-menu");
-
-  useEffect(() => {
-    setActive("nav-links"); // Start with nav-links closed
-    setToggleIcon("burger-menu"); // Start with burger-menu icon
-  }, []);
+  const [ active, setActive ] = useState("nav-links");
+  const [ toggleIcon, setToggleIcon ] = useState("burger-menu");
 
   const navToggle = () => {
-    if (active === "nav-links") {
-      setActive("nav-links"); // Close the mobile menu first
+    // Navlinks Animation
+    active === "nav-links"
+      ? setActive("nav-links nav-active")
+      : setActive("nav-links");
 
-      // Delay applying "nav-active" class to mobile menu
-      setTimeout(() => {
-        setActive("nav-links nav-active");
-      }, 500); // Adjust the delay time as needed
-    } else {
-      setActive("nav-links"); // Close the mobile menu
-    }
-
-    // Toggle Animation with Delay
-    if (toggleIcon === "burger-menu") {
-      setToggleIcon("burger-menu toggle");
-    } else {
-      setTimeout(() => {
-        setToggleIcon("burger-menu");
-      }, 500); // Adjust the delay time as needed
-    }
+    // Toggle Animation
+    toggleIcon === "burger-menu" 
+      ? setToggleIcon('burger-menu toggle')
+      : setToggleIcon('burger-menu');
   };
 
   return (
-    <motion.nav variants={navAnim} initial="hidden" animate="show" className="navbar">
+    <motion.nav 
+      variants={navAnim} 
+      initial="hidden" 
+      animate="show" 
+      className="navbar"
+    >
       <div className="logo">
         <img src={Logo} className="logo" alt="Logo" />
       </div>
@@ -53,10 +44,14 @@ const Nav = () => {
         </li>
         <div className="buttons">
           <li>
-            <button className="sign-button" href="#">Sign Up</button>
+            <Link to="/signup">
+                <button className="sign-button" >Sign Up</button>
+            </Link>
           </li>
           <li>
-            <button className="login-button" href="#">Log In</button>
+            <Link to="/signin">
+              <button className="login-button">Log In</button>
+            </Link>
           </li>
         </div>
       </ul>

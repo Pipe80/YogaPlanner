@@ -13,10 +13,25 @@
   justify-content: center;
   position: absolute;
   top: 50%;
-  left: 65%;
+  left: 70%;
   transform: translate(-50%, -50%);
   gap: 12rem;
   width: 60%;
+}
+
+@media (max-width: 1200px) {
+  .frontpage-container {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .frontpage-container {
+    left: 50%;
+  }
+  .frontpage {
+    background-size:auto;
+  }
 }
 
 /* ----Features ---- */
@@ -41,12 +56,23 @@
   flex: 1;
 }
 
+@media (max-width: 900px) {
+  .features-wrapper {
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 10%;
+  }
+  .class {
+    flex-direction: column-reverse;
+  }
+}
+
 /* ---- Quote ---- */
 
 .quote-container {
   background-image: url("../assets/Quote_background.jpg");
   background-size: cover;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,27 +88,20 @@
 
 #Faq {
   height: 80vh;
-  padding: 2rem;
-  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 20rem;
+  background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .question {
   cursor: pointer;
-  margin: 1rem 0;
+  margin: 1rem;
   padding: 1rem;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-.question.active {
-  background-color: #f0f0f0;
-}
-
-.question h4 {
-  margin: 0;
+  border-radius: 10px;
+  background-color: #ececec;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .answer {
@@ -91,10 +110,26 @@
   border-top: 1px solid #ccc;
 }
 
-.faq-line {
-  height: 1px;
-  background-color: #ccc;
+@media (max-width: 1500px) {
+  #Faq {
+    padding: 7rem 14rem;
+    height: 70vh;
+  }
 }
+
+@media (max-width: 1200px) {
+  #Faq {
+    padding: 5rem 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #Faq {
+    padding: 3rem;
+  }
+}
+
+
 
 /* ---- Footer ---- */
 
@@ -119,12 +154,12 @@
 
 .icon {
   font-size: 1.5rem;
-  color: #333;
+  color: var(--dark-grey);
   transition: color 0.3s ease;
 }
 
 .icon:hover {
-  color: #007bff;
+  color: var(--primary-color);
 }
 
 .yoga-planner {

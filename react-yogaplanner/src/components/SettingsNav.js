@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/NavStyles.css";
 import { motion } from "framer-motion";
 import { navAnim } from "../styles/Animations";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo_test.png";
 
 const SettingsNav = () => {
   const [active, setActive] = useState("nav-links");
@@ -37,11 +37,10 @@ const SettingsNav = () => {
 
   return (
     <motion.nav variants={navAnim} initial="hidden" animate="show" className="navbar">
-      <div className="logo-yoga">
+      <div className="logo">
         
         <img src={Logo} className="logo" alt="Logo" />
         
-        <h2>YogaPlanner</h2>
       </div>
       <ul onClick={navToggle} className={active}>
       <li>

@@ -11,25 +11,25 @@ import { titleAnim } from "../styles/Animations";
 const FrontPage = () => {
     return (
         <div className="frontpage">
-            <Nav/>
+            <Nav />
             <div className="frontpage-container">
-                <motion.div 
-                    variants={titleAnim} 
+                <motion.div
+                    variants={titleAnim}
                     initial="hidden"
                     animate="show"
                     className="frontpage-text"
                 >
                     <div className="frontpage-title">
-                        <h1>Discover Harmony in Every Sequence</h1>
-                        <motion.h3 variants={titleAnim}>
+                        <h1>Harmony in Every Move</h1>
+                        <motion.h4 variants={titleAnim}>
                             Empower Your Practice with our Yoga Sequence Planner
-                        </motion.h3>
+                        </motion.h4>
                     </div>
-                    <motion.div 
+                    <motion.div
                         variants={titleAnim}
                         className="ctas"
                     >
-                        <button className="cta-main" onClick={() => {window.location.href='#Contact';}}>Start planning</button>
+                        <button href="#Features">Learn more</button>
                     </motion.div>
                 </motion.div>
             </div>

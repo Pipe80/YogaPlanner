@@ -7,11 +7,13 @@ const GlobalStyle = createGlobalStyle`
     --accent-color: #858585;
     --black: #000000;
     --white: #ffffff;
+    --dark-grey: #333333;
     --light-grey: #eaeaea;
     --login-box: #ffffff52;
     
-    --main-font: 'Roboto', sans-serif;
-    --heading-font: 'Roboto', sans-serif;
+    --main-font: 'Poppins', sans-serif; 
+    --heading-font: 'Poppins', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif; 
     --base-font-size: 16px;
   }
 
@@ -29,27 +31,37 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    margin-bottom: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
   }
 
   p {
     font-family: var(--main-font);
+    font-size: 1rem; /* The base font size */
   }
 
   h1 {
-    font-size: calc(var(--base-font-size) * 2.618); /* Approximately 41.808rem */
+    font-size: 4.209rem; /* Approximately 67.34px */
   }
-  
+
   h2 {
-    font-size: calc(var(--base-font-size) * 1.618); /* Approximately 25.888rem */
+    font-size: 3.157rem; /* Approximately 50.52px */
   }
   
   h3 {
-    font-size: calc(var(--base-font-size) * 1); /* The base font size (16px) */
+    font-size: 2.369rem; /* Approximately 37.90px */
   }
   
   h4 {
-    font-size: calc(var(--base-font-size) * 0.618); /* Approximately 9.888rem */
+    font-size: 1.777rem; /* Approximately 28.43px */
+  }
+  
+  h5 {
+    font-size: 1.333rem; /* Approximately 21.33px */
+  }
+
+  h6 {
+    font-size: 1rem; /* Same as the base font size (16.00px) */
   }
 
   a {
@@ -80,10 +92,10 @@ const GlobalStyle = createGlobalStyle`
   }
   
   button:hover {
-      cursor: pointer;
-      color: var(--white);
-      background-color: var(--accent-color);
-      transform: scale(1.05);
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--accent-color);
+    transform: scale(1.05);
   }
 
   img {
@@ -91,6 +103,42 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 1rem;
   }
 
+  input {
+    border: none;
+    width: 100%;
+  }
+
+  /* Add media queries for mobile responsiveness */
+  @media (max-width: 1300px) {
+    body {
+      font-size: 14px; /* Reduce the base font size for mobile devices */
+    }
+
+    h1 {
+      font-size: 3.375rem; /* Adjust h1 font size for mobile */
+    }
+
+    h2 {
+      font-size: 2.827rem; /* Adjust h2 font size for mobile */
+    }
+
+    h3 {
+      font-size: 2.25rem; /* Adjust h3 font size for mobile */
+    }
+
+    h4 {
+      font-size: 1.999rem; /* Adjust h4 font size for mobile */
+    }
+
+    h5 {
+      font-size: 1.414rem; /* Adjust h5 font size for mobile */
+    }
+
+    h6 {
+      font-size: 1.125rem; /* Adjust h6 font size for mobile */
+    }
+  }
+  
 `;
 
 export default GlobalStyle;
