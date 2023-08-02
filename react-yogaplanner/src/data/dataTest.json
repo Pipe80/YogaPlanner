@@ -1,0 +1,24 @@
+{
+    "photos": [
+      {
+        "id": 1,
+        "title": "Asana 1",
+        "url": "../assets/"
+      },
+      {
+        "id": 2,
+        "title": "Asana 2",
+        "url": "../assets/"
+      },
+      {
+        "id": 3,
+        "title": "Asana 3",
+        "url": "../assets/"
+      },
+      {
+        "id": 4,
+        "title": "Asana 4",
+        "url": "../assets/"
+      }
+    ]
+  }

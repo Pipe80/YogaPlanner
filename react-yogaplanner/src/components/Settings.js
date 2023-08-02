@@ -3,7 +3,7 @@ import AppNav from "./AppNav";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGlobe, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faGlobe, faLock,  } from '@fortawesome/free-solid-svg-icons';
 
 import "../styles/SettingStyle.css";
 
@@ -19,7 +19,8 @@ const Settings = () => {
                         width="30px"
                     />
                     <span style={{color: '#692D51'}}>
-                        Change your email</span>
+                        Change your email
+                    </span>
                 </div>
                 <div className="settings-wrapper">
                     <FontAwesomeIcon

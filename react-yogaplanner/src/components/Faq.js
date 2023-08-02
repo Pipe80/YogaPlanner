@@ -16,7 +16,7 @@ const FaqSection = () => {
 
   const faqs = [
     {
-      question: "How Do I Start?",
+      question: "How do I start?",
       answer: "Create a account and start using it today.",
     },
     {

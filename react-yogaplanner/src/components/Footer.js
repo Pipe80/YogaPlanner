@@ -8,7 +8,7 @@ import "../styles/FrontPageStyles.css";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
 
@@ -23,13 +23,10 @@ const Footer = () => {
             ref={element}
         >
         <div className="social-icons">
-            <a href="https://www.facebook.com/your-page" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} className="icon" />
             </a>
-            <a href="https://www.twitter.com/your-page" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faTwitter} className="icon" />
-            </a>
-            <a href="https://www.instagram.com/your-page" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className="icon" />
             </a>
         </div>
