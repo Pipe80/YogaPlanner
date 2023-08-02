@@ -3,7 +3,7 @@ import AppNav from "./AppNav";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGlobe, faLock,  } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faGlobe, faLock, faInfo, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 import "../styles/SettingStyle.css";
 
@@ -24,7 +24,7 @@ const Settings = () => {
                 </div>
                 <div className="settings-wrapper">
                     <FontAwesomeIcon
-                        icon={faLock}
+                        icon={faInfo}
                         color="#692D51"
                         width="30px"
                     />
@@ -32,7 +32,7 @@ const Settings = () => {
                 </div>
                 <div className="settings-wrapper">
                     <FontAwesomeIcon 
-                        icon={faEnvelope} 
+                        icon={faInfoCircle} 
                         color="#692D51"
                         width="30px"
                     />
