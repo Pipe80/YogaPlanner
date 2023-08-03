@@ -84,12 +84,27 @@
   color: white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and  (orientation: landscape) {
   .quote-container {
     height: 40vh;
   }
   .quote-wrapper {
     padding: 4rem;
+  }
+}
+
+@media (max-height: 1500px) and  (orientation: portrait) {
+  .quote-container {
+    height: 20vh;
+  }
+  .quote-wrapper {
+    padding: 2rem;
+  }
+}
+
+@media (max-height: 700px) and  (orientation: portrait) {
+  .quote-container {
+    height: 30vh;
   }
 }
 
