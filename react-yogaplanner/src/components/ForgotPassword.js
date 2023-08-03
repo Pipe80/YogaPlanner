@@ -4,7 +4,7 @@ import "../styles/RegisterStyles.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { titleAnim } from "../styles/Animations";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo_test.png";
 
 const ForgotPassword = () => {
   return (
@@ -18,10 +18,9 @@ const ForgotPassword = () => {
           animate="show"
           className="login-text"
         >
-          <div className="frontpage-title">
+         <div className="frontpage-title">
             <div className="logo-and-text">
-              <img src={Logo} alt="YogaPlanner-logo" className="logo" />
-              <h1>YogaPlanner</h1>
+              <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
             </div>
           </div>
           <div className="register-form">
