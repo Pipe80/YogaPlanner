@@ -27,7 +27,7 @@ const ForgotPassword = () => {
           <div className="register-form">
            <p>Forgot your password?</p>
         <input type="email" id="email" placeholder="Email" className="input-field" />
-        <Link to="/signup"> <button className="login-btn">Send password to email</button>
+        <Link to="/signup"> <button className="login-btn">Send</button>
             </Link>  
           </div>
          
