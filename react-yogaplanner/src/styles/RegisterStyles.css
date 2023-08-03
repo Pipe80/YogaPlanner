@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
   }
   
   .register-text {
@@ -35,7 +36,6 @@
     align-items: center;
     gap: 10px;
   }
-
   
   .input-field {
     width: 100%;

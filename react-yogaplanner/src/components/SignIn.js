@@ -24,7 +24,9 @@ const Login = () => {
             <Link to="/dashboard">
                 <button className="login-btn">Log In</button>
             </Link>
+            <Link to="/forgotpassword">
             <p className="forgot-password">Forgot your password?</p>
+            </Link>
       </motion.div>
     </div>
   );

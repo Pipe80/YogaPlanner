@@ -11,6 +11,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import Dashboard from './components/Dashboard';
 import YogaApp from './components/YogaApp';
+import ForgotPassword from './components/ForgotPassword';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/yogaapp" element={<YogaApp />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/forgotpassword" element={<ForgotPassword />} />
         </Routes>
       </Router>
     </div>
