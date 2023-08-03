@@ -144,6 +144,36 @@ const GlobalStyle = createGlobalStyle`
       font-size: 1.125rem; /* Adjust h6 font size for mobile */
     }
   }
+
+  @media (max-width: 800px) {
+    body {
+      font-size: 1rem; /* Same as regular size (14px) */
+    }
+  
+    h1 {
+      font-size: 2.441rem; /* Same as regular size (24.24px) */
+    }
+  
+    h2 {
+      font-size: 1.938rem; /* Same as regular size (19.24px) */
+    }
+  
+    h3 {
+      font-size: 1.538rem; /* Same as regular size (15.38px) */
+    }
+  
+    h4 {
+      font-size: 1.216rem; /* Same as regular size (12.16px) */
+    }
+  
+    h5 {
+      font-size: 0.964rem; /* Same as regular size (9.64px) */
+    }
+  
+    h6 {
+      font-size: 0.768rem; /* Same as regular size (7.68px) */
+    }
+  }
   
 `;
 
