@@ -2,7 +2,7 @@ import React from "react";
 
 // Images
 import YogaSequenceImage from "../assets/Yoga_sequence.jpeg";
-import YogaClassImage from "../assets/Yoga_class.jpeg";
+import YogaClassImage from "../assets/Yoga_sequence2.jpg";
 
 // Animations & styles
 import { motion } from "framer-motion";

@@ -15,7 +15,7 @@ const SignUn = () => {
       >
           <div className="frontpage-title">
             <div className="logo-and-text">
-              <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
+              <img src={Logo} alt="YogaPlanner-logo" className="logo" />
             </div>
           </div>
             <input type="text" id="name" placeholder="Name" className="input-field" />

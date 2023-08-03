@@ -103,6 +103,12 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 1rem;
   }
 
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 115px;
+  }
+
   input {
     border: none;
     width: 100%;

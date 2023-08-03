@@ -30,7 +30,7 @@
     left: 50%;
   }
   .frontpage {
-    background-size:auto;
+    background-position: right center;
   }
 }
 
@@ -90,14 +90,17 @@
   height: 80vh;
   display: flex;
   flex-direction: column;
-  padding: 10rem 20rem;
   background-color: #ffffff;
   border-radius: 10px;
 }
 
+.faq-container {
+  padding: 10rem 20rem;
+}
+
 .question {
   cursor: pointer;
-  margin: 1rem;
+  margin: 2rem 0rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: #ececec;
@@ -111,19 +114,19 @@
 }
 
 @media (max-width: 1500px) {
-  #Faq {
+  .faq-container {
     padding: 7rem 14rem;
   }
 }
 
 @media (max-width: 1200px) {
-  #Faq {
+  .faq-container {
     padding: 5rem 10rem;
   }
 }
 
 @media (max-width: 1000px) {
-  #Faq {
+  .faq-container {
     padding: 3rem;
   }
 }

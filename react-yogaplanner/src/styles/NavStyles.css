@@ -8,11 +8,7 @@
   padding: 1.5rem 3rem;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 115px;
-}
+
 
 .nav-links {
   display: flex;

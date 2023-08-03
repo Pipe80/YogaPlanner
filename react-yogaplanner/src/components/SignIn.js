@@ -17,7 +17,7 @@ const Login = () => {
         className="loginpage-container"
       >
           <div className="frontpage-title">
-              <img src={Logo} alt="YogaPlanner-logo" className="logo-login" />
+              <img src={Logo} alt="YogaPlanner-logo" className="logo" />
           </div>
             <input type="text" id="email" placeholder="Email" className="input-field" />
             <input type="password" id="password" placeholder="Password" className="input-field" />

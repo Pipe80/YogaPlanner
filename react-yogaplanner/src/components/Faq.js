@@ -41,6 +41,7 @@ const FaqSection = () => {
       initial="hidden"
       ref={element}
     >
+      <div className="faq-container">
       <h3>Frequently Asked Questions</h3>
       <LayoutGroup>
         {faqs.map((faq, index) => (
@@ -60,6 +61,7 @@ const FaqSection = () => {
           </motion.div>
         ))}
       </LayoutGroup>
+      </div>
       <Footer/>
     </motion.div>
   );
