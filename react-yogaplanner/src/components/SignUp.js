@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/LoginStyles.css";
 import { motion } from "framer-motion";
 import { titleAnim } from "../styles/Animations";
+import { Link } from 'react-router-dom';
 import Logo from "../assets/Logo_test.png";
 
 const SignUn = () => {
@@ -22,7 +23,8 @@ const SignUn = () => {
             <input type="text" id="email" placeholder="Email" className="input-field" />
             <input type="password" id="password" placeholder="Password" className="input-field" />
             <input type="passwordAgain" id="passwordAgain" placeholder="Password again" className="input-field" />
-            <button className="login-btn">Sign Up</button>
+            <Link to="/"> <button className="login-btn">Sign Up</button>
+            </Link>                                       
         </motion.div>
     </div>
   );
